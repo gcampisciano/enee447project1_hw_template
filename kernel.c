@@ -25,7 +25,7 @@ notmain ( void )
 	// do some work
 	uart_puts("\n");
 	uart_puts("\n");
-	uart_puts("<NAME>'s system is booting.\n");
+	uart_puts("Greg Campisciano's system is booting.\n");
 	uart_puts("Please hit enter to continue.\n");
 	uart_puts("\n");
 

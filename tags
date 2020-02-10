@@ -1,0 +1,113 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARMGNU	Makefile	/^ARMGNU = arm-none-eabi$/;"	m
+ARM_TIMER_CNT	uart.c	12;"	d	file:
+ARM_TIMER_CTL	uart.c	11;"	d	file:
+AUX_ENABLES	uart.c	20;"	d	file:
+AUX_MU_BAUD_REG	uart.c	31;"	d	file:
+AUX_MU_CNTL_REG	uart.c	29;"	d	file:
+AUX_MU_IER_REG	uart.c	22;"	d	file:
+AUX_MU_IIR_REG	uart.c	23;"	d	file:
+AUX_MU_IO_REG	uart.c	21;"	d	file:
+AUX_MU_LCR_REG	uart.c	24;"	d	file:
+AUX_MU_LSR_REG	uart.c	26;"	d	file:
+AUX_MU_MCR_REG	uart.c	25;"	d	file:
+AUX_MU_MSR_REG	uart.c	27;"	d	file:
+AUX_MU_SCRATCH	uart.c	28;"	d	file:
+AUX_MU_STAT_REG	uart.c	30;"	d	file:
+BRANCHTO	utils.s	/^BRANCHTO:$/;"	l
+CLOCK_BASE	time.c	5;"	d	file:
+CLOCK_CMP0	time.c	10;"	d	file:
+CLOCK_CMP1	time.c	11;"	d	file:
+CLOCK_CMP2	time.c	12;"	d	file:
+CLOCK_CMP3	time.c	13;"	d	file:
+CLOCK_CTL	time.c	7;"	d	file:
+CLOCK_HI	time.c	9;"	d	file:
+CLOCK_LO	time.c	8;"	d	file:
+COPS	Makefile	/^COPS = -Wall -O2 -nostdlib -nostartfiles -ffreestanding $/;"	m
+CORE_TIMER_FIQ0	time.c	28;"	d	file:
+CORE_TIMER_FIQ1	time.c	29;"	d	file:
+CORE_TIMER_FIQ2	time.c	30;"	d	file:
+CORE_TIMER_FIQ3	time.c	31;"	d	file:
+CORE_TIMER_INT0	time.c	19;"	d	file:
+CORE_TIMER_INT1	time.c	20;"	d	file:
+CORE_TIMER_INT2	time.c	21;"	d	file:
+CORE_TIMER_INT3	time.c	22;"	d	file:
+CORE_TIMER_IRQ0	time.c	24;"	d	file:
+CORE_TIMER_IRQ1	time.c	25;"	d	file:
+CORE_TIMER_IRQ2	time.c	26;"	d	file:
+CORE_TIMER_IRQ3	time.c	27;"	d	file:
+CORE_TIMER_NOINT	time.c	23;"	d	file:
+CTL_DISABLE	time.c	42;"	d	file:
+CTL_ENABLE	time.c	41;"	d	file:
+CTL_INTERRUPT	time.c	39;"	d	file:
+CTL_NOINTERRUPT	time.c	40;"	d	file:
+CTL_TIMEMASK	time.c	43;"	d	file:
+DEPS	Makefile	/^DEPS = *.h$/;"	m
+GET32	utils.s	/^GET32:$/;"	l
+GETPC	utils.s	/^GETPC:$/;"	l
+GPCLR0	led.c	10;"	d	file:
+GPCLR0	uart.c	16;"	d	file:
+GPCLR1	led.c	11;"	d	file:
+GPFSEL1	uart.c	14;"	d	file:
+GPFSEL2	led.c	5;"	d	file:
+GPFSEL3	led.c	6;"	d	file:
+GPFSEL4	led.c	7;"	d	file:
+GPPUD	uart.c	17;"	d	file:
+GPPUDCLK0	uart.c	18;"	d	file:
+GPSET0	led.c	8;"	d	file:
+GPSET0	uart.c	15;"	d	file:
+GPSET1	led.c	9;"	d	file:
+INT_FIQ	time.c	115;"	d	file:
+INT_IRQ	time.c	114;"	d	file:
+INT_NONE	time.c	116;"	d	file:
+IRQ_CLEAR	time.c	35;"	d	file:
+IRQ_NORELOAD	time.c	37;"	d	file:
+IRQ_RELOAD	time.c	36;"	d	file:
+OBJECTS	Makefile	/^OBJECTS := $(patsubst %.s,%.o,$(wildcard *.s)) $(patsubst %.c,%.o,$(wildcard *.c))$/;"	m
+ONE_MSEC	time.h	11;"	d
+ONE_SEC	time.h	12;"	d
+ONE_USEC	time.h	10;"	d
+PBASE	uart.c	5;"	d	file:
+PUT32	utils.s	/^PUT32:$/;"	l
+SDTARGET	Makefile	/^SDTARGET = kernel7.img$/;"	m
+TARGET	Makefile	/^TARGET = kernel7.bin$/;"	m
+TIMER_CTL	time.c	15;"	d	file:
+TIMER_IRQ	time.c	16;"	d	file:
+TIMER_IRQ_TO_CORE0	time.c	33;"	d	file:
+TIMER_ROUTE	time.c	17;"	d	file:
+_start	1_boot.s	/^_start:$/;"	l
+blink_led	led.c	/^blink_led(unsigned int reps)$/;"	f
+clear_timer_interrupts	time.c	/^clear_timer_interrupts()$/;"	f
+core0	1_boot.s	/^core0:$/;"	l
+cpu_id	utils.s	/^cpu_id:$/;"	l
+disable_fiq	utils.s	/^disable_fiq:$/;"	l
+disable_irq	utils.s	/^disable_irq:$/;"	l
+dummy	utils.s	/^dummy:$/;"	l
+enable_fiq	utils.s	/^enable_fiq:$/;"	l
+enable_irq	utils.s	/^enable_irq:$/;"	l
+get_time	time.c	/^get_time( )$/;"	f
+hang	1_boot.s	/^hang: b hang$/;"	l
+idle	utils.s	/^idle:$/;"	l
+init_time	time.c	/^void init_time()$/;"	f
+init_uart	uart.c	/^void init_uart ( void )$/;"	f
+int_wait	time.c	/^int_wait ( unsigned int time )$/;"	f
+led_off	led.c	/^led_off()$/;"	f
+led_on	led.c	/^led_on()$/;"	f
+notmain	kernel.c	/^notmain ( void )$/;"	f
+now_hrs	time.c	/^now_hrs () $/;"	f
+now_usec	time.c	/^now_usec () $/;"	f
+uart_check	uart.c	/^unsigned int uart_check ( void )$/;"	f
+uart_flush	uart.c	/^void uart_flush ( void )$/;"	f
+uart_lcr	uart.c	/^unsigned int uart_lcr ( void )$/;"	f
+uart_put32x	uart.c	/^void uart_put32x ( unsigned int d )$/;"	f
+uart_put64x	uart.c	/^void uart_put64x ( unsigned long long d )$/;"	f
+uart_puts	uart.c	/^void uart_puts ( char *c )$/;"	f
+uart_recv	uart.c	/^unsigned int uart_recv ( void )$/;"	f
+uart_send	uart.c	/^void uart_send ( unsigned int c )$/;"	f
+uint64_t	time.h	/^typedef unsigned long long uint64_t;$/;"	t
+wait	time.c	/^wait( unsigned long usecs )$/;"	f

@@ -14,7 +14,7 @@
 - Just need to put your name [here in kernel.c](https://github.com/sklaw/enee447project1_hw_template/blob/master/kernel.c#L28)
 
 ## Useful Readings
-- [What's UART explained by Wikipedia](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
+- Google "what is UART" and learn what it is :)
 - [BCM2835 peripheral document](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2835/README.md): Raspberry Pi 3B+ is using BCM2837, but currently there is no official documentation for BCM2837 board:) So we have to use documents of BCM2835. **NOTE**: according this [site](https://www.raspberrypi.org/documentation/hardware/raspberrypi/peripheral_addresses.md), the peripheral addresses of pi 3 starts at `0x3F000000`. So when you are reading the BCM2835 document, replace `7E` with `3F` when you see a memory address.
 
 
